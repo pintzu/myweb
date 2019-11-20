@@ -3,8 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+		th{
+			background-color:#AED8E6;
+		}
+		table,th,td{
+			border:1px solid black;
+		}
+		th,td{
+			width:70px;
+			height:40px;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	doudou is the best boyfriend i have ever seen
+	<script>
+		var a=1;
+		var b=1;
+		document.write("<table>");
+		document.write("<tr><th>a</th><th>b</th><th>NOT a</th><th>NOT b</th><th>a AND b</th><th>a OR b</th><th>a XOR b</th></tr>");
+		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
+		var a=1;
+		var b=0;
+		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
+		var a=0;
+		var b=1;
+		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
+		var a=0;
+		var b=0;
+		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
+		document.write("</table>")
+	</script>
 </body>
 </html>
