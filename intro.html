@@ -19,11 +19,33 @@
 			font-size: 25px;
 			letter-spacing: 10px;
 			padding: 5px; 
-			background-color: #E9BFF2;
+			background-color: #FFF9D6;
 		}
-		.banner{
-			background-image:url(pic/05.JPG);
-
+		.bg-container{
+  			width: 100%;
+  			height: 300px;
+  			position: relative;
+		}
+		.bg-container .content{
+  			position: absolute;
+  			z-index:999;
+  			text-align: center;
+  			width: 100%;
+  			font-family: 'Over the Rainbow', cursive;
+  			font-size: 70px;
+  			padding-top: 75px;
+		}
+		.bg-container::after{
+  			content: "";
+  			position: absolute;
+  			top: 0px;
+  			left: 0px;
+  			width: 100%;
+  			height: 100%;
+  			z-index:99;
+  			background-image: url(12.jpg);
+  			background-size: cover;
+  			opacity: 0.6;
 		}
 	
 
@@ -31,7 +53,7 @@
 	</style>
 </head>
 <body>
-	<header>PinTzu</header>
+	<header><b>PinTzu</b></header>
 	<nav><table>
 		<tr>學歷背景</tr>
 		<tr>社團活動</tr>
@@ -39,8 +61,10 @@
 		<tr>大學期許&目標</tr>
 		<tr>生活紀錄</tr>
 	</table></nav>
-	<banner class="banner">
-		
-	</banner>
+	<div class="bg-container">
+   		<div class="content">
+   			Welcome!
+   		</div>
+	</div>
 </body>
 </html>
