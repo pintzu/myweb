@@ -2,38 +2,119 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>pintzu的個人網站</title>
+<link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap" rel="stylesheet">
+
 	<style>
-		th{
-			background-color:#AED8E6;
-		}
-		table,th,td{
-			border:1px solid black;
-		}
-		th,td{
-			width:70px;
-			height:40px;
-			text-align: center;
-		}
+
+        @import url("assets/css/indexcss.css")
+
+
 	</style>
 </head>
 <body>
-	<script>
-		var a=1;
-		var b=1;
-		document.write("<table>");
-		document.write("<tr><th>a</th><th>b</th><th>NOT a</th><th>NOT b</th><th>a AND b</th><th>a OR b</th><th>a XOR b</th></tr>");
-		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
-		var a=1;
-		var b=0;
-		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
-		var a=0;
-		var b=1;
-		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
-		var a=0;
-		var b=0;
-		document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+Number(!a)+"</td><td>"+Number(!b)+"</td><td>"+(a&b)+"</td><td>"+(a|b)+"</td><td>"+(a^b)+"</td></tr>");
-		document.write("</table>")
-	</script>
+	
+
+	<header>
+		<b>PinTzu</b>
+		<img src="pic/c1211.png"/ class="cc">
+
+	</header>
+	<nav>
+		<table>
+		<tr><a href='#ed'style="text-decoration:none;">學歷背景&nbsp;&nbsp;&nbsp;&nbsp;</a></tr>
+		<tr><a href='#cl'style="text-decoration:none;">社團活動&nbsp;&nbsp;&nbsp;&nbsp;</a></tr>
+		<tr><a href='#wo'style="text-decoration:none;">工作&興趣&nbsp;&nbsp;&nbsp;&nbsp;</a></tr>
+		<tr><a href='#go'style="text-decoration:none;">大學期許&目標&nbsp;&nbsp;&nbsp;&nbsp;</a></tr>
+		<tr><a href='#li'style="text-decoration:none;">生活紀錄</a></tr>
+		</table>
+	</nav>
+	<div class="bg-container">
+   		<div class="content">
+   			Welcome!
+   		</div> 
+	</div>
+	<section><a name='ed'>
+		<h1>學歷背景</a></h1>
+		<div class="">
+			<div class="md">
+				<h2>&nbsp;&nbsp;&nbsp;明德國小</h2>
+				<a href="http://www.mdes.tp.edu.tw/" target="_blank"><img src="pic/md.jpg"/></a>
+			</div>
+			<div class="dr">
+				<h2>&nbsp;達人女中</h2>
+				<a href="http://www.trgsh.tp.edu.tw/" target="_blank"><img src="pic/dr.jpg"/></a>
+			</div>
+			<div class="ss">
+				<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;松山高中</h2>
+				<a href="https://www.sssh.tp.edu.tw/home" target="_blank"><img src="pic/ss.jpg"/></a>
+			</div>
+			<div class="cy">
+				<h2>&nbsp;&nbsp;中原大學</h2>
+				<a href="https://www1.cycu.edu.tw/" target="_blank"><img src="pic/cy.jpg"/></a>
+			</div>
+		</div>
+	</section>
+	<aside>
+		<img src="pic/me.jpg"/>
+		<h2>姓名:陳品孜<br>電話:0988-859-431<br>Email:tiffany859<br>431@gmail.com<br>地址:桃園市中壢區<br>大仁四街11號4樓</h2>
+		<a href="https://www.instagram.com/__pintzu/?hl=zh-tw" target="_blank"><img src="pic/ig.jpg"/ class="ig"></a>
+		<a href="https://www.facebook.com/profile.php?id=100002016931565" target="_blank"><img src="pic/fb.jpg"/ class="fb"></a>
+	</aside>
+	<div class="club"><a name='cl'>``
+		<h1>社團活動經驗</a></h1>
+		<div class="w">
+			<h2>因為喜歡跳舞所以從國中開始就都<br>參加學校的熱舞社,也在過程中學<br>到了很多,在高三那年也辦了一場屬<br>於自己的成果發表會,非常有成就感。<br>
+			大學時因為腳受傷的關係放棄了跳舞<br>選擇加入了系學會,也參與了許多精彩<br>的活動。</h2>
+		</div>
+			<img src="pic/052.jpg"/ class="dc1">
+			<img src="pic/03.jpg"/ class="sa1">
+			<img src="pic/06.jpg"/ class="bg1">
+	</div>
+	<div class="work"><a name='wo'>
+		<h1>工作經驗&興趣</h1></a>
+		<h2 class="w">升大二的暑假開始在手搖飲料店打工,<br>上班雖然很忙很累,但也學到了如何和<br>人溝通,和有效率的做事情。<br>興趣是跳舞和聽音樂。</h2>
+		<img src="pic/tea.jpg"/ class="tea">
+		<img src="pic/dance.gif"/ class="dance">
+	</div>
+	<div class="goal"><a name='go'>
+		<h1>大學期許&目標</h1></a>
+		<h2 class="w"><ul>
+			<li>學好英文</li>
+			<li>熟悉所學的程式語言</li>
+			<li>靠自己的力量養活自己跟一隻貓</li>
+			<li>找到自己未來的方向</li>
+		</ul></h2>
+		<img src="pic/c1.jpg"/ class="c" onmouseover="this.src='pic/c11.jpg';"onmouseout="this.src='pic/c1.jpg';">
+	</div>
+	<div class="life"><a name='li'>
+		<h1>生活紀錄</h1></a>
+		<div class="pic">
+			<img src="pic/02.jpg"/class="p6">
+		</div>
+		<div class="pic">
+			<img src="pic/04.jpg"/ class="p1">
+		</div>
+		<div class="pic">
+			<img src="pic/8.jpg"/ class="p2">
+		</div>
+		<div class="pic">
+			<img src="pic/9.jpg"/ class="p3">
+		</div>
+		<div class="pic">
+			<img src="pic/7.jpg"/ class="p4">
+		</div>
+		<div class="pic">
+			<img id="img1" src="pic/3.jpg"/ class="p5">
+		</div>
+	</div>
+  <article>  
+  	<div> <img src="pic/bbb.jpg"class="aaa"> </div>
+
+  </article>
+	
 </body>
+<footer>
+		<p>Copyright © 2019 PinTzu Chen</p>
+	</footer>
 </html>

@@ -1,0 +1,249 @@
+header{
+			font-family: 'Over the Rainbow', cursive;
+			font-size: 75px;
+			text-align: center;
+			background-color: #E9BFF2;
+			}
+		
+		nav{
+			font-family: 'Noto Sans TC', sans-serif;
+			text-align:center;
+			font-size: 25px;
+			letter-spacing: 10px;
+			padding: 5px; 
+			background-color: #FFF9D6;
+		}
+		.bg-container{
+  			width: 100%;
+  			height: 300px;
+  			position: relative;
+		}
+		.bg-container .content{
+  			position: absolute;
+  			z-index:999;
+  			text-align: center;
+  			width: 100%;
+  			font-family: 'Over the Rainbow', cursive;
+  			font-size: 70px;
+  			padding-top: 75px;
+		}
+		.bg-container::after{
+  			content: "";
+  			position: absolute;
+  			top: 0px;
+  			left: 0px;
+  			width: 100%;
+  			height: 100%;
+  			z-index:10;
+  			background-image: url(12.jpg);
+  			background-size: cover;
+  			opacity: 0.6;
+		}
+		h1{
+			font-family: 'Noto Sans TC', sans-serif;
+			font-size: 50px;
+			letter-spacing: 20px;
+			padding: 0px 25px; a
+		}
+		h2{
+			font-family: 'Noto Sans TC', sans-serif;
+			letter-spacing: 5px;
+		}
+		section{
+			padding-left: 20px;
+			margin-top: 10px;
+			border-style: dashed;
+			border-color: #E8D874;
+			height: 400px;
+			width: 900px;
+			border-radius: 20px;
+		}
+		.md{
+			position: absolute;
+			top:650px;
+			left: 80px;
+			
+		}
+		.dr{
+			position: absolute;
+			top:650px;
+			left: 300px;
+		}
+		.ss{
+			position: absolute;
+			top:650px;
+			left:470px;
+		}
+		.cy{
+			position: absolute;
+			top:650px;
+			left:760px;
+		}
+		aside{
+			position: absolute;
+			top:512px;
+			left:940px;
+			line-height: 50px;
+			font-family: 'Noto Sans TC', sans-serif;
+			letter-spacing: 5px;
+			padding:20px 2px 20px 5px;
+			border-style: dashed;
+			border-color: #E8D874;
+			height: 890px;
+			width: 300px;
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+		.w{
+			position:relative;
+			top:0px;
+			padding-left:10px;
+		}
+		.dc1{
+			position: absolute;
+			top:1290px;
+			left:20px;
+		}
+		.sa1{
+			position: absolute;
+			top:1000px;
+			left:550px;
+		}
+		.bg1{
+			position: absolute;
+			top:1280px;
+			left:610px;
+		}
+		.club{
+			border-style: dashed;
+			border-color: #E8D874;
+			height: 720px;
+			width: 920px;
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+		.ig{
+			position:absolute;
+			top:700px;
+			left:5px;
+		}
+		.fb{
+			position:absolute;
+			top:710px;
+			left:170px;
+		}
+		.tea{
+			position:absolute;
+			top:1760px;
+			left:550px;
+		}
+		.dance{
+			position:absolute;
+			top:1760px;
+			left:690px;
+		}
+		.work{
+			border-style: dashed;
+			border-color: #E8D874;
+			height: 280px;
+			width: 920px;
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+		.goal{
+			border-style: dashed;
+			border-color: #E8D874;
+			height: 280px;
+			width: 920px;
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+		.c{
+			position:absolute;
+			top:2000px;
+			left:550px;
+		}
+		.cc{
+			position:absolute;
+			top:15px;
+			left:740px;
+		}
+
+		.pic{
+			width:50px; 
+			height:35px;
+			overflow:hidden;
+			padding:15px;
+		}
+		.pic img{
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		.pic img:hover{
+			transform:scale(1.2,1.2);
+		}
+
+		.p1{
+			position:absolute;
+			top:2300px;
+			left:500px;
+		}
+		.p2{
+			position:absolute;
+			top:2500px;
+			left:500px;
+		}
+		.p3{
+			position:absolute;
+			top:2330px;
+			left:800px;
+		}
+		.p4{
+			position:absolute;
+			top:2520px;
+			left:900px;
+		}
+		.p5{
+			position:absolute;
+			top:2330px;
+			left:1050px;
+		}
+		.p6{
+			position:absolute;
+			top:2400px;
+			left:30px;
+			z-index:3;
+
+		}
+		#img1{transform:rotate(90deg);}
+		
+		.life{
+			border-style: dashed;
+			border-color: #E8D874;
+			height: 500px;
+			width: 1220px;
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+		footer{
+			font-family: 'Noto Sans TC', sans-serif;
+			background-color:#FFF9D6;
+			text-align:center;
+			font-size: 25px;
+			letter-spacing: 10px;
+			padding:100px;
+			position:relative;
+			bottom:0px;
+
+		}
+.aaa
+{
+    opacity: 0.5; //透明度設為 0.5
+    filter: alpha(opacity=50); // IE8 與更早的版本
+}
+article{
+	position:absolute;
+	top:30%;
+    right:0%;
+	z-index:-4;
+}
