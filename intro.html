@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap" rel="stylesheet">
 
 	<style>
+
 		header{
 			font-family: 'Over the Rainbow', cursive;
 			font-size: 75px;
@@ -42,7 +43,7 @@
   			left: 0px;
   			width: 100%;
   			height: 100%;
-  			z-index:99;
+  			z-index:10;
   			background-image: url(12.jpg);
   			background-size: cover;
   			opacity: 0.6;
@@ -51,7 +52,7 @@
 			font-family: 'Noto Sans TC', sans-serif;
 			font-size: 50px;
 			letter-spacing: 20px;
-			padding: 0px 25px; 
+			padding: 0px 25px; a
 		}
 		h2{
 			font-family: 'Noto Sans TC', sans-serif;
@@ -176,9 +177,10 @@
 			top:15px;
 			left:740px;
 		}
+
 		.pic{
-			width:500px; 
-			height:350px;
+			width:50px; 
+			height:35px;
 			overflow:hidden;
 			padding:15px;
 		}
@@ -189,6 +191,7 @@
 		.pic img:hover{
 			transform:scale(1.2,1.2);
 		}
+
 		.p1{
 			position:absolute;
 			top:2300px;
@@ -214,6 +217,13 @@
 			top:2330px;
 			left:1050px;
 		}
+		.p6{
+			position:absolute;
+			top:2400px;
+			left:30px;
+			z-index:3;
+
+		}
 		#img1{transform:rotate(90deg);}
 		
 		.life{
@@ -231,11 +241,16 @@
 			font-size: 25px;
 			letter-spacing: 10px;
 			padding:100px;
+			position:relative;
+			bottom:0px;
+
 		}
+		
 
 	</style>
 </head>
 <body>
+	
 	<header>
 		<b>PinTzu</b>
 		<img src="pic/c1211.png"/ class="cc">
@@ -278,8 +293,8 @@
 	<aside>
 		<img src="pic/me.jpg"/>
 		<h2>姓名:陳品孜<br>電話:0988-859-431<br>Email:tiffany859<br>431@gmail.com<br>地址:桃園市中壢區<br>大仁四街11號4樓</h2>
-		<a herf="https://www.instagram.com/__pintzu/?hl=zh-tw" target="_blank"><img src="pic/ig.jpg"/ class="ig"></a>
-		<a herf="https://www.facebook.com/profile.php?id=100002016931565" target="_blank"><img src="pic/fb.jpg"/ class="fb"></a>
+		<a href="https://www.instagram.com/__pintzu/?hl=zh-tw" target="_blank"><img src="pic/ig.jpg"/ class="ig"></a>
+		<a href="https://www.facebook.com/profile.php?id=100002016931565" target="_blank"><img src="pic/fb.jpg"/ class="fb"></a>
 	</aside>
 	<div class="club"><a name='cl'>``
 		<h1>社團活動經驗</a></h1>
@@ -310,7 +325,7 @@
 	<div class="life"><a name='li'>
 		<h1>生活紀錄</h1></a>
 		<div class="pic">
-			<img src="pic/02.jpg"/>
+			<img src="pic/02.jpg"/class="p6">
 		</div>
 		<div class="pic">
 			<img src="pic/04.jpg"/ class="p1">
@@ -328,9 +343,10 @@
 			<img id="img1" src="pic/3.jpg"/ class="p5">
 		</div>
 	</div>
-	<footer>
+
+	
+</body>
+<footer>
 		<p>Copyright © 2019 PinTzu Chen</p>
 	</footer>
-
-</body>
 </html>
